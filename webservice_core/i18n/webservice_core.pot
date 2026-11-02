@@ -41,6 +41,7 @@ msgid "An endpoint with this technical name already exists for this backend."
 msgstr ""
 
 #. module: webservice_core
+#: model_terms:ir.ui.view,arch_db:webservice_core.webservice_endpoint_form_view
 #: model_terms:ir.ui.view,arch_db:webservice_core.webservice_endpoint_search_view
 msgid "Archived"
 msgstr ""
@@ -61,6 +62,15 @@ msgstr ""
 #: model:ir.model.fields,field_description:webservice_core.field_webservice_endpoint__backend_id
 #: model_terms:ir.ui.view,arch_db:webservice_core.webservice_endpoint_search_view
 msgid "Backend"
+msgstr ""
+
+#. module: webservice_core
+#: model:ir.model.fields,help:webservice_core.field_webservice_backend__full_url_display
+#: model:ir.model.fields,help:webservice_core.field_webservice_endpoint__full_url_display
+#: model:ir.model.fields,help:webservice_core.field_webservice_request_mixin__full_url_display
+msgid ""
+"Best-effort absolute URL, ready to copy/paste. Any '{placeholder}' token is "
+"left unresolved: fill it in before use."
 msgstr ""
 
 #. module: webservice_core
@@ -137,6 +147,13 @@ msgid "Form"
 msgstr ""
 
 #. module: webservice_core
+#: model:ir.model.fields,field_description:webservice_core.field_webservice_backend__full_url_display
+#: model:ir.model.fields,field_description:webservice_core.field_webservice_endpoint__full_url_display
+#: model:ir.model.fields,field_description:webservice_core.field_webservice_request_mixin__full_url_display
+msgid "Full Url Display"
+msgstr ""
+
+#. module: webservice_core
 #: model:ir.model.fields.selection,name:webservice_core.selection__webservice_endpoint__http_method__get
 msgid "GET"
 msgstr ""
@@ -196,6 +213,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:webservice_core.field_webservice_header__write_date
 #: model:ir.model.fields,field_description:webservice_core.field_webservice_querystring_param__write_date
 msgid "Last Updated on"
+msgstr ""
+
+#. module: webservice_core
+#: model_terms:ir.ui.view,arch_db:webservice_core.webservice_backend_form_view
+msgid "Manage endpoints"
 msgstr ""
 
 #. module: webservice_core
